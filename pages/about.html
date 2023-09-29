@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="../style.css" />
+    <title>About</title>
+
+</head>
+
+<body>
+    <nav>
+      <div class="logo">
+        <a href="../index.html"><img src="https://cdn.discordapp.com/attachments/352943621680398336/1142991830607220816/samllest.png"></a>
+      </div>
+        <ul class='nav-links'>
+            <li><a href="../index.html" ><p>Home</p></a></li>
+            <li><a class="active" href="about.html" ><p>About Us</p></a></li>
+            <li><a href="contact.html" ><p>Contact Us</p></a></li>
+        </ul>
+    </nav>
+    <div class="top-space">
+        <h1>About Us</h1>
+    </div>
+        
+    </div>
+    
+        <div class="image-container">
+          <div class="image-wrapper" onmouseover="spinImage('image1')" onmouseout="resetImage('image1')">
+            <img src="https://cdn.discordapp.com/attachments/352943621680398336/1032841657294528542/unknown.png" alt="Image 1" class="spin-image" id="image1">
+            <div class="caption2">
+                <span class="about-heading">Clarence Ta<br></span>
+                <span class="about-content">Hello! I am a 11th grader in the IB program at Seminole High School. I am on the varsity tennis team and some of my favorite clubs are Beta Chi and BPA. I wanted to create a platform for local middle school students to explore and find programs that best fit them, thus this website was created. If you have any questions about programs at Seminole High School, feel free to contact us through our email!</span>
+            </div>
+          </div>
+          <div class="image-wrapper" onmouseover="spinImage('image2')" onmouseout="resetImage('image2')">
+            <img src="https://media.discordapp.net/attachments/352943621680398336/1032842810971390112/unknown.png?width=717&height=676" alt="Image 2" class="spin-image" id="image2">
+            <div class="caption2">
+              <span class="about-heading">Tahmid Bhuiyan<br></span>
+              <span class="about-content">Hi! My name is Tahmid Bhuiyan and I’m a 11th grader in the Dual Enrollment Program at Seminole High School. I play lacrosse for Seminole High School and I’m a part of many different clubs such as BPA! One interesting fact about me is that I am the 2nd head leader of the Roblox Club at Code Ninjas Lake Mary. I would love to answer any of your questions and you can contact me through our information page. It’s my pleasure to meet you!</span>
+          </div>
+          </div>
+        </div>
+     
+    
+      <script>
+        function spinImage(imageId) {
+          const image = document.getElementById(imageId);
+          image.style.transform = 'rotate(360deg)';
+        }
+    
+        function resetImage(imageId) {
+          const image = document.getElementById(imageId);
+          image.style.transform = 'rotate(0)';
+        }
+      </script>
+
+    <div class="mission-container">
+    <div class="mission">
+      
+             <h1>
+             <u>Our Mission</u>
+            </h1>
+  
+        <div class="mission-content">
+         <p>
+             Our mission at SHSPathways is to aid rising high-school students coming into Seminole High School pick their course pathways. Seminole High School provides bountiful programs to choose from, and sometimes it is difficult to decide what is right for you. That is exactly why my partner, Tahmid Bhuyian, and I, Clarence Ta, decided to make a quick and easy resource to provide information on the programs offered at Seminole High School.
+         </p>
+        </div>
+    </div>
+  </div>
+    
+</body>
